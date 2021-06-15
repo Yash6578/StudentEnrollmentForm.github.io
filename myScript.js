@@ -30,6 +30,7 @@ function isValidSkills() {
   return true; 
 }
 
+
 function addRow()
 {
     // get input values

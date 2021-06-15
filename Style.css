@@ -28,14 +28,17 @@ td {
   font-weight: normal;
 }
 
-/*#UserTable{
-    opacity: 1;
-    -webkit-transition: all 2s ease-in-out;
-    -moz-transition: all 2s ease-in-out;
-    -ms-transition: all 2s ease-in-out;
-    -o-transition: all 2s ease-in-out;
-    transition: all 2s ease-in-out;
-}*/
+table {
+    width: 100%;
+    margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .div1 .div2 {
+    height:100vh;
+    width: 100vw
+  }
+}
 
 
 ul {
@@ -58,11 +61,7 @@ div {
 	padding-bottom: 8%;
 }
 
-#div1,#div2{
-  height:50%;
-  width: 50%;
- }
-#div2.col-xs-6
+#div2.col-md-6
 {
   padding:0px !important;
 }
@@ -106,8 +105,7 @@ footer {
 }
 
 .responsive {
-  width: 100%;
-  max-width: 300px;
-  height: 100%;
-  max-height: 150px;
+  
+  max-width: 100%;
+  max-height: 100%;
 }
